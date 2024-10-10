@@ -19,15 +19,15 @@ Get latest Android Studio / NDK
 Execute bundled run configuration 'Inject' at clone and when modifying api/api-rs/deob/mixins  
 You can now build the 'app' module  
 
-# Info
-You should be able to use the Account plugin to configure Auto User/Pass, and that will let you login when hitting existing user.  
-(properties are stored in sandboxed app data, no other apps can access this data unless your device is rooted.)  
+# Info  
+The game should be fully playable now, with no input related issues preventing gameplay.  
+- Please create an issue if you find any!
   
-You should be able to rotate the camera, long press to open menu, tap to click, organize inventory / bank, and use sliders
+You should be able to rotate the camera via viewport drag, long press to open menu, tap to click, organize inventory / bank, and use sliders / buttons
 
 You should be able to open the keyboard at any time via the keyboard button on the toolbar and close it by pressing enter  
   
 Currently the game renders at 50fps in the Android Emulator and on my personal S24 Ultra.  
 Performance has not been tested on other devices.  
   
-Please create an issue ONLY if your phone does not have one already, and ONLY for rendering issues.  
+Please create a rendering issue ONLY if your phone has problems drawing the game, and only if one does not exist
